@@ -31,7 +31,7 @@
     "cssbeautify": "^0.3.1",
     "editorconfig": "^0.15.0",
     "lasso-package-root": "^1.0.1",
-    "marko": "^4.12.3",
+    "marko": "^4.13.8",
     "minimatch": "^3.0.4",
     "prettier": "^1.13.7",
     "redent": "^2.0.0",
