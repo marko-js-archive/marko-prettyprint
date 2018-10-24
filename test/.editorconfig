@@ -1,2 +1,3 @@
-# top-most EditorConfig file
+# for testing, overriding the rules in .editorconfig
+# at the root of this directory
 root = true
