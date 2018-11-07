@@ -32,7 +32,7 @@
     "lasso-package-root": "^1.0.1",
     "marko": "^4.12.3",
     "minimatch": "^3.0.4",
-    "prettier": "^1.13.7",
+    "prettier": "^1.15.0",
     "redent": "^2.0.0",
     "resolve-from": "^4.0.0"
   },
