@@ -158,7 +158,7 @@ module.exports = function printHtmlElement(node, printContext, writer) {
             "=" + unescapePlaceholdersInStringExpression(attrValueStr);
         }
       } else if (attr.argument != null) {
-        attrStr += "(" + toCode(attr.argument, printContext, printContext.depth + 1, true).trimStart() + ")";
+        attrStr += "(" + toCode(attr.argument, printContext, printContext.depth + 1, true) + ")";
       }
     } else if (attr.spread) {
       if (hasUnenclosedWhitespace(attr.value)) {

@@ -30,7 +30,7 @@ module.exports = function(code, printContext, indent, expression) {
   }
   
   if (indent) {
-    code = redent(code, indent, printContext.indentString).trimStart();
+    code = redent(code, indent, printContext.indentString).trim();
   }
 
   return code;
