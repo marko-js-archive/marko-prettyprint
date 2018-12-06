@@ -158,6 +158,13 @@ module.exports = function printNodes(nodes, printContext, inputWriter) {
         writer.write(printContext.currentIndentString);
       }
 
+      if (child.type === "HtmlElement" && child.previousSibling) {
+        var prev = child.previousSibling;
+        if (prev.type === "Text" && /^(?:\n|\r){2,}$/.test(prev.argument.value)) {
+          writer.write(printContext.eol);
+        }
+      }
+
       writer.write(childOutput.trim());
 
       if (avoidLineBreaks) {
